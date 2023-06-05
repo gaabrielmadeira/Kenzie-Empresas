@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/button.css" />
+    <link rel="stylesheet" href="../style/globalstyles.css" />
+    <link rel="stylesheet" href="../style/header.css" />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/text.css" />
+    <link rel="stylesheet" href="../style/adm.css" />
+    <link rel="stylesheet" href="../style/inputs.css" />
+    <link rel="stylesheet" href="../style/toast.css" />
+    <link rel="stylesheet" href="../style/modal.css" />
+
+
+    <title>ADM Page</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <section class="header__content">
+            <div>
+                <img src="../assets/img/kenzie-empresas.png" alt="Logo kenzie empresas">
+            </div>
+            <div class="header__buttons">
+                <button class="button__outlined header__button-logout">Logout</button>
+            </div>
+        </section>
+    </header>
+    <main class="container">
+        <div class="container-center">
+            <form class="selected__container">
+                <select class="companys__selected"> </select>
+            </form>
+            <section class="departments__container">
+                <div class="create__container">
+                    <h2 class="title-2">Departamentos</h2>
+                    <button class="button__default create__button">+ Criar</button>
+                </div>
+                <section class="departments__cards"></section>
+            </section>
+            <section class="empty__departments"> </section>
+            <h2 class="title-2">Usuários cadastrados</h2>
+            <section class="employees__cards"> </section>
+        </div>
+    </main>
+    <dialog class="modal__create-controller"></dialog>
+    <dialog class="modal__edit-controller"></dialog>
+    <dialog class="modal__delete-controller"></dialog>
+    <dialog class="edit__employee-controller"></dialog>
+    <dialog class="delete__employee-controller"></dialog>
+    <dialog class="modal__view-controller"></dialog>
+</body>
+<script type="module" src="../script/adm.js"></script>
+</html>

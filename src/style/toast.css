@@ -1,0 +1,47 @@
+.toast__container {
+    width: 250px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 10px;
+    border-radius: 10px;
+
+    font-family: var(--font-family-2);
+    color: var(--color-mode);
+    font-size: var(--font-size-6);
+
+    opacity: 0;
+    transition: opacity 1s ease-in-out, top 1s ease-in-out;
+}
+
+.toast__add {
+    animation-name: slideDown;
+    animation-duration: 1s;
+    top: 50px;
+    opacity: 1;
+}
+
+@keyframes slideDown {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+.toast__remove {
+    top: -100px;
+    opacity: 0;
+}

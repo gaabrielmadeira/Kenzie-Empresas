@@ -1,0 +1,71 @@
+.register__container{
+    width: 406px;
+    height: 369px;
+    margin-top: 80px;
+    padding: 30px;
+
+    background-color: var(--color-grey-6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    box-shadow: 3px 3px 3px var(--color-shadow);
+}
+
+.register__form{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register__button-register{
+    width: 100%;
+    height: 48px;
+}
+
+.register__button-return{
+    width: 100%;
+    height: 48px;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--color-mode);
+    
+    width: 8px;
+}
+  
+::-webkit-scrollbar-thumb{
+    width: 3px;
+    
+    background-color: var(--color-brand-1);
+ }
+
+ .spinner{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 3px solid var(--color-brand-1);
+
+    position: absolute;
+    bottom: 35px;
+    right: 50%;
+
+    animation: spin 1s linear infinite;
+}
+
+.hidden{
+    display: none;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,161 @@
+.create__button {
+    width: 150px;
+    height: 50px;
+}
+
+.selected__container {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.selected__container > select {
+    width: 288px;
+}
+
+.departments__container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create__container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.departments__cards {
+    width: 100%;
+    height: 393px;
+
+    padding: 50px;
+
+    background-color: var(--color-grey-6);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+
+    box-shadow: 0px 0px 15px var(--color-shadow);
+    overflow-y: auto;
+}
+
+.departments__list {
+    width: 489px;
+    height: 180px;
+
+    border: 1px solid var(--color-brand-1);
+    padding: 15px;
+    background-color: var(--color-mode);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.departments__list-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.departments__list-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.departments__cards .departments__list .departments__list-logos>img:hover {
+    cursor: pointer;
+}
+
+.empty__departments {
+    width: 100%;
+    height: 393px;
+
+    padding: 180px 140px;
+    border: 1px solid var(--color-grey-3);
+
+    background-color: var(--color-grey-6);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty__departments>p {
+    display: flex;
+    justify-content: center;
+    width: 830px;
+}
+
+.employees__cards {
+    width: 100%;
+    height: 393px;
+
+    padding: 50px;
+
+    background-color: var(--color-grey-6);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+
+    overflow-y: auto;
+}
+
+.employees__list {
+    width: 489px;
+    height: 145px;
+
+    border: 1px solid var(--color-brand-1);
+    padding: 15px;
+    background-color: var(--color-mode);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.employees__list-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.employees__list-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.employees__cards .employees__list .employees__list-logos > img:hover {
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    background-color: var(--color-mode);
+
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 3px;
+
+    background-color: var(--color-brand-1);
+}

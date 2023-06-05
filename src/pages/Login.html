@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/globalstyles.css">
+    <link rel="stylesheet" href="../style/button.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/text.css">
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../style/inputs.css">
+    <link rel="stylesheet" href="../style/toast.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <section class="header__content">
+            <div>
+                <img src="../assets/img/kenzie-empresas.png" alt="Logo kenzie empresas">
+            </div>
+            <div class="header__buttons">
+                <button class="button__outlined header__button-home">Home</button>
+                <button class="button__default header__button-register">Cadastro</button>
+            </div>
+        </section>
+    </header>
+    <main class="container-login-register">
+            <section class="login__container">
+                <h1 class="title-1-poppins">Login</h1>
+                <p class="text-3">Preencha os campos para realizar o Login</p>
+                <form class="login__form">
+                    <input class="input__default login__email" type="email" name="" placeholder="Seu e-mail" autocomplete="off">
+                    <input class="input__default login__password" type="password" name="" placeholder="Sua senha" autocomplete="off">
+                    <button type="submit" class="button__default login__button-login">Login</button>
+                    <span>ou</span>
+                    <button class="button__outlined login__button-register">Cadastre-se</button>
+                </form>
+        </section>
+        <section class="spinner hidden"></section>
+    </main>
+    <script type="module" src="../script/login.js"></script>
+</body>
+
+</html>

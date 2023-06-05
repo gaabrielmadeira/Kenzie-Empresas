@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/button.css" />
+    <link rel="stylesheet" href="../style/globalstyles.css" />
+    <link rel="stylesheet" href="../style/header.css" />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/text.css" />
+    <link rel="stylesheet" href="../style/register.css" />
+    <link rel="stylesheet" href="../style/inputs.css"/>
+    <link rel="stylesheet" href="../style/toast.css"/>
+
+    <title>Register</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <section class="header__content">
+            <div>
+                <img src="../assets/img/kenzie-empresas.png" alt="logo kenzie empresas">
+            </div>
+            <div class="header__buttons">
+                <button class="button__outlined header__button-home">Home</button>
+                <button class="button__default header__button-login">Login</button>
+            </div>
+        </section>
+    </header>
+    <main class="container-login-register">
+        <section class="register__container">
+            <h1 class="title-1-poppins">Cadastre-se</h1>
+            <form class="register__form">
+                <input class="input__default register__input-name" type="text" name="name" placeholder="Seu Nome" autocomplete="off">
+                <input class="input__default register__input-email" type="email" name="email" placeholder="Seu e-mail" autocomplete="off">
+                <input class="input__default register__input-password" type="password" name="password" placeholder="Sua senha" autocomplete="off">
+                <button type="submit" class="button__default register__button-register">Cadastrar</button>
+                <button class="button__outlined register__button-return">Retornar</button>
+            </form>
+        </section>
+        <section class="spinner hidden"></section>
+    </main>
+    <script type="module" src="../script/register.js"></script>
+</body>
+
+</html>

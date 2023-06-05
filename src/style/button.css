@@ -1,0 +1,145 @@
+.button__default{
+    background-color: var(--color-brand-1);
+
+    border: none;
+    
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-0);
+    font-size: var(--font-size-6);
+    line-height: 122%;
+
+    color: var(--color-mode);
+}
+
+.button__default:hover{
+    cursor: pointer;
+    background-color: var(--color-brand-2);
+    transition: 0.3s;
+}
+
+.button__outlined{
+    border: 1px solid var(--color-brand-1);
+
+    background-color: var(--color-mode);
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-0);
+    font-size: var(--font-size-6);
+    line-height: 122%;
+
+    color: var(--color-brand-1);
+}
+
+.button__outlined:hover{
+    background-color: var(--color-brand-2);
+    color: var(--color-mode);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button__action-2{
+    background-color: var(--color-action-2);
+
+    border: none;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-0);
+    font-size: var(--font-size-6);
+    line-height: 122%;
+
+    color: var(--color-mode);
+}
+
+.button__action-2:hover{
+    cursor: pointer;
+}
+
+.button__action-1{
+    background-color: var(--color-action-1);
+
+    border: none;
+    
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-0);
+    font-size: var(--font-size-6);
+    line-height: 122%;
+
+    color: var(--color-mode);
+}
+
+.button__action-1:hover{
+    cursor: pointer;
+}
+
+.button__chip{
+    width: 110px;
+    height: 32px;
+
+    padding: 5px;
+
+    border: 1px solid var(--color-grey-2);
+    border-radius: 255px;
+
+    background-color: var(--color-mode);
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-7);
+    line-height: 118%;
+    text-align: center;
+
+    color: var(--color-grey-2);
+}
+
+.button__chip:hover{
+    cursor: default;
+    border: 1px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+    box-shadow: 2px 2px 2px var(--color-shadow);
+}
+
+.close__button{
+    width: 18px;
+    height: 18px;
+
+    display: flex;
+    align-self: flex-end;
+}
+
+.close__button:hover{
+    cursor: pointer;
+}
+
+.button__dismiss{
+    width: 100%;
+    height: 58px;
+
+    border: 1px solid var(--color-action-2);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-0);
+    font-size: var(--font-size-6);
+    line-height: 22px;
+    color: var(--color-action-2);
+}
+
+.button__dismiss:hover{
+    cursor: pointer;
+    background-color: var(--color-action-2);
+
+    border: none;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: var(--font-weight-0);
+    font-size: var(--font-size-6);
+    line-height: 122%;
+
+    color: var(--color-mode);
+    transition: 0.3s;
+}

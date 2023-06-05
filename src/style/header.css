@@ -1,0 +1,49 @@
+.header__container{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 1px solid var(--color-grey-3);
+}
+
+.header__content{
+    width: 1182px;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container > div > img{
+    width: 204px;
+    height: 22px;
+}
+
+.header__buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.header__button-login{
+    width: 142px;
+    height: 48px;
+}
+
+.header__button-home{
+    width: 142px;
+    height: 48px;
+}
+
+.header__button-register{
+    width: 142px;
+    height: 48px;
+}
+
+.header__button-logout{
+    width: 142px;
+    height: 48px;
+}
